@@ -106,8 +106,11 @@ export default function App() {
 
         {view === 'chat' && (
           <Chat
+            baseline={data.baseline}
             latestTracking={data.tracking[data.tracking.length - 1]}
             latestRealtime={data.realtime[data.realtime.length - 1]}
+            messages={data.chat}
+            onMessagesChange={(chat) => persist({ ...data, chat })}
           />
         )}
       </SafeAreaView>
