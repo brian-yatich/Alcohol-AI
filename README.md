@@ -1,7 +1,7 @@
 # DigiCBT — Alcohol Recovery System
 
 A React Native (Expo) mobile app for alcohol cessation, built to follow the
-"DigiCBT Recovery System" dashboard design from Figma Make — with the
+"DigiCBT Recovery System"  — with the
 login/auth screen removed so the app opens straight into the baseline setup.
 
 ## Flow
